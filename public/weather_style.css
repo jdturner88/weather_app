@@ -1,0 +1,109 @@
+#home {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: url('map.png'); 
+	background-size: cover;
+	color: white;
+}
+
+#home input.submit {
+	font-family: Montserrat, Helvetica, sans-serif;
+	background-color: #97e1d0;
+	color: #4e9d8b;
+	border: none;
+	width: 120px;
+	height: 50px;
+	font-size: 13.5px;
+	padding: 0 10px 0 10px;
+	padding-right: 15px;
+}
+
+#home input.entry {
+	width: 340px;
+	height: 50px;
+	font-family: Open Sans, Montserrat, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.content {
+	position: fixed;
+	top: 35%;
+	left: 38%;
+}
+
+body {
+	font-size: 45px;
+	text-align: center;
+	font-family: Montserrat, Helvetica, sans-serif;
+}
+
+#cloudy {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: url('cloudy.png'); 
+	background-size: cover;
+	background-color: #9b9391
+	color: #817978;
+}
+
+#cloudy div#text {
+	margin: auto;
+	margin-top: 20%;
+}
+
+#sunny {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: url('sunny.png');
+	background-color: #fbed73;
+	background-size: cover;
+	color: #eace11;
+}
+
+#sunny div#text {
+	margin: auto;
+	margin-top: 20%;
+}
+
+#snowy {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: url('snowy.png');
+	background-color: #cfd9d9;
+	background-size: cover;
+	color: #a0b6b6;
+}
+
+#snowy div#text {
+	margin: auto;
+	margin-top: 20%;
+}
+
+#rainy {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: url('rainy.png');
+	background-color: #5e6c89;
+	background-size: cover;
+	color: #43526f;
+}
+
+#rainy div#text {
+	margin: auto;
+	margin-top: 20%;
+}
